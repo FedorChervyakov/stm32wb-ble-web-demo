@@ -88,10 +88,6 @@ Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c \
 Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c \
 Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c \
 Utilities/lpm/tiny_lpm/stm32_lpm.c \
-Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c \
-Middlewares/ST/STM32_WPAN/utilities/otp.c \
-Middlewares/ST/STM32_WPAN/utilities/stm_list.c \
-Middlewares/ST/STM32_WPAN/utilities/stm_queue.c \
 Utilities/sequencer/stm32_seq.c  
 
 # ASM sources
@@ -167,7 +163,6 @@ C_INCLUDES =  \
 -IDrivers/CMSIS/Device/ST/STM32WBxx/Include \
 -IUtilities/sequencer \
 -IMiddlewares/ST/STM32_WPAN/ble \
--IDrivers/CMSIS/Include \
 -IDrivers/CMSIS/Include
 
 
