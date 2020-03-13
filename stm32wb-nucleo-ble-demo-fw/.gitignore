@@ -1,10 +1,4 @@
 # Ignore
 .clangd/
 .mxproject
-build/**
-
-# Allow
-!build/stm32wb-nucleo-ble-demo-fw.elf
-!build/stm32wb-nucleo-ble-demo-fw.bin
-!build/stm32wb-nucleo-ble-demo-fw.hex
-
+build
